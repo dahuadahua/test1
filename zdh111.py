@@ -53,11 +53,11 @@ chrome.find_element(by=By.XPATH, value='//*[@class="text ng-pristine ng-valid we
 sleep(1)
 chrome.find_element(by=By.XPATH, value='//*[@class="layui-layer-btn0"]').click() #确定
 sleep(1)
-# chrome.find_element(by=By.XPATH, value='//*[@class="ng-pristine ng-valid"]').click()
+chrome.find_element(by=By.XPATH, value='//*[@class="ng-pristine ng-valid"]').click()
 sleep(1)
-# chrome.find_element(by=By.XPATH, value='//*[@class="ic-empty"]').click()
+chrome.find_element(by=By.XPATH, value='//*[@class="ic-empty"]').click()
 sleep(1)
-# chrome.find_element(by=By.XPATH, value='//*[@class="layui-layer-btn0"]').click() # 删除
+chrome.find_element(by=By.XPATH, value='//*[@class="layui-layer-btn0"]').click() # 删除
 sleep(1)
 chrome.find_element(by=By.XPATH, value='//*[@class="exit"]').click()
 sleep(1)
